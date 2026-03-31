@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  
+  --color-odisha-red: #B22222;
+  --color-odisha-gold: #D4AF37;
+  --color-odisha-sand: #FAF9F6;
+  --color-odisha-blue: #004B87;
+  --color-odisha-charcoal: #1A1A1A;
+}
+
+body {
+  background-color: var(--color-odisha-sand);
+  color: var(--color-odisha-charcoal);
+}
